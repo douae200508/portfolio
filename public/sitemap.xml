@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Site sans pré-rendu statique (SPA) : ce fichier est écrit à la main et doit
+  être mis à jour quand une page est ajoutée/retirée (voir README, section
+  "Ajout de contenu"). Remplacez le domaine une fois celui-ci réservé.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://[prenom-nom.dev]/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://[prenom-nom.dev]/projets/eventaura</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://[prenom-nom.dev]/projets/gestion-restaurant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://[prenom-nom.dev]/projets/esante</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://[prenom-nom.dev]/projets/site-vitrine-metiers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://[prenom-nom.dev]/mentions-legales</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+</urlset>

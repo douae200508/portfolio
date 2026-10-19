@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "services": "Services",
+    "projects": "Projets",
+    "experience": "Parcours",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis {{name}}",
+    "tagline": "Je conçois et développe des applications web modernes, de la base de données à l'interface utilisateur — curieuse, motivée, et prête à contribuer à des projets concrets.",
+    "ctaProjects": "Voir mes projets",
+    "ctaCv": "Télécharger mon CV",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Qui suis-je",
+    "text": "Développeuse Full Stack passionnée par la création d'applications web modernes, de la base de données à l'interface utilisateur. Formée au développement digital et actuellement en cursus d'ingénieur, j'ai mis mes compétences en pratique à travers plusieurs expériences professionnelles — conception de plateformes, intégration de CMS, formation d'apprenants. Aujourd'hui à la recherche d'une nouvelle opportunité pour contribuer à des projets qui ont du sens.",
+    "stats": {
+      "years": "années d'expérience",
+      "projects": "projets réalisés",
+      "technologies": "technologies maîtrisées",
+      "internships": "stages effectués"
+    },
+    "available": "Disponible pour de nouvelles opportunités",
+    "unavailable": "Non disponible actuellement"
+  },
+  "skills": {
+    "eyebrow": "Compétences",
+    "title": "Ma boîte à outils",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "databases": "Bases de données",
+    "cms": "CMS",
+    "other": "Outils & conception",
+    "certifications": "Certifications"
+  },
+  "services": {
+    "eyebrow": "Spécialités",
+    "title": "Ce que je peux vous apporter"
+  },
+  "projects": {
+    "eyebrow": "Projets",
+    "title": "Ce que j'ai construit",
+    "filters": {
+      "all": "Tous",
+      "web": "Web",
+      "fullstack": "Full-Stack",
+      "api": "API",
+      "mobile": "Mobile"
+    },
+    "viewCase": "Voir l'étude de cas",
+    "prevProject": "Projet précédent",
+    "nextProject": "Projet suivant",
+    "backToProjects": "Retour aux projets",
+    "caseStudy": {
+      "context": "Contexte et problématique",
+      "role": "Mon rôle",
+      "solution": "Solution apportée",
+      "features": "Fonctionnalités principales",
+      "gallery": "Aperçu",
+      "challenges": "Difficultés rencontrées",
+      "results": "Résultats obtenus",
+      "stack": "Stack technique"
+    }
+  },
+  "experience": {
+    "eyebrow": "Parcours",
+    "title": "Mon chemin jusqu'ici"
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "Ce qu'on dit de mon travail"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Un projet en tête ? Discutons-en.",
+    "name": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours…",
+    "success": "Message envoyé — je vous réponds au plus vite !",
+    "error": "Une erreur est survenue, merci de réessayer ou de m'écrire directement.",
+    "copyEmail": "Copier l'adresse e-mail",
+    "copied": "Adresse copiée !",
+    "errors": {
+      "required": "Ce champ est requis",
+      "email": "Adresse e-mail invalide",
+      "minLength": "Message trop court (10 caractères minimum)",
+      "honeypot": "Erreur de validation"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "backToTop": "Retour en haut",
+    "builtWith": "Conçu et développé par {{name}} avec React"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "Cette page n'existe pas, ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "intro": "[Contenu des mentions légales et de la politique de confidentialité à compléter.]"
+  },
+  "theme": {
+    "light": "Thème clair",
+    "dark": "Thème sombre",
+    "system": "Préférence système",
+    "toggle": "Changer de thème"
+  },
+  "language": {
+    "toggle": "Changer de langue"
+  },
+  "skip": {
+    "toContent": "Aller au contenu principal"
+  }
+}

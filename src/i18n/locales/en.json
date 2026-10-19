@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "services": "Services",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm {{name}}",
+    "tagline": "I design and build modern web applications, from the database to the user interface — curious, motivated, and ready to contribute to real projects.",
+    "ctaProjects": "View my projects",
+    "ctaCv": "Download my resume",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Who I am",
+    "text": "Full Stack developer passionate about building modern web applications, from the database to the user interface. Trained in digital development and currently pursuing an engineering degree, I've put my skills into practice through several professional experiences — designing platforms, integrating CMS solutions, training learners. Currently looking for a new opportunity to contribute to projects that matter.",
+    "stats": {
+      "years": "years of experience",
+      "projects": "projects shipped",
+      "technologies": "technologies mastered",
+      "internships": "internships completed"
+    },
+    "available": "Available for new opportunities",
+    "unavailable": "Currently unavailable"
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "My toolbox",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "databases": "Databases",
+    "cms": "CMS",
+    "other": "Tools & design",
+    "certifications": "Certifications"
+  },
+  "services": {
+    "eyebrow": "Specialties",
+    "title": "What I Can Offer"
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "What I've built",
+    "filters": {
+      "all": "All",
+      "web": "Web",
+      "fullstack": "Full-Stack",
+      "api": "API",
+      "mobile": "Mobile"
+    },
+    "viewCase": "View case study",
+    "prevProject": "Previous project",
+    "nextProject": "Next project",
+    "backToProjects": "Back to projects",
+    "caseStudy": {
+      "context": "Context & problem",
+      "role": "My role",
+      "solution": "Solution",
+      "features": "Key features",
+      "gallery": "Preview",
+      "challenges": "Challenges",
+      "results": "Results",
+      "stack": "Tech stack"
+    }
+  },
+  "experience": {
+    "eyebrow": "Experience",
+    "title": "My journey so far"
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What people say"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Got a project in mind? Let's talk.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent — I'll get back to you soon!",
+    "error": "Something went wrong, please try again or email me directly.",
+    "copyEmail": "Copy email address",
+    "copied": "Address copied!",
+    "errors": {
+      "required": "This field is required",
+      "email": "Invalid email address",
+      "minLength": "Message too short (10 characters minimum)",
+      "honeypot": "Validation error"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "legal": "Legal notice",
+    "backToTop": "Back to top",
+    "builtWith": "Designed and built by {{name}} with React"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "This page doesn't exist, or has been moved.",
+    "backHome": "Back to home"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "intro": "[Legal notice and privacy policy content to complete.]"
+  },
+  "theme": {
+    "light": "Light theme",
+    "dark": "Dark theme",
+    "system": "System preference",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "toggle": "Switch language"
+  },
+  "skip": {
+    "toContent": "Skip to main content"
+  }
+}

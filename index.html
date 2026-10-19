@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Valeurs par défaut — chaque page écrase title/description/OG via
+         react-helmet-async (voir src/components/seo.tsx). -->
+    <title>Portfolio — Développeuse Full-Stack</title>
+    <meta
+      name="description"
+      content="Portfolio de Douae Chakhtouna, développeuse full-stack — projets, compétences et parcours."
+    />
+    <meta name="theme-color" content="#C9A06C" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Portfolio — Développeuse Full-Stack" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script>
+      // Anti-flash de thème : applique la classe .dark AVANT le premier
+      // rendu React (qui, lui, ne s'exécute qu'après le DOMContentLoaded),
+      // en lisant directement la même clé localStorage que ThemeProvider.
+      ;(function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme')
+          // Thème clair par défaut (aucune préférence enregistrée) — seul
+          // un choix explicite "sombre" ou "système" change ce comportement.
+          var isDark =
+            stored === 'system'
+              ? window.matchMedia('(prefers-color-scheme: dark)').matches
+              : stored === 'dark'
+          if (isDark) document.documentElement.classList.add('dark')
+        } catch (e) {
+          /* localStorage indisponible (mode privé strict) — tant pis, pas bloquant */
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
